@@ -1,0 +1,32 @@
+//Aqui vamos declarar todas as propriedades de estilo desse texto//
+body{
+    background-image: url('C:\Users\mairaoli\OneDrive - Electronics for Imaging, Inc\5 - Pessoais (Maíra)\Poemas\Fundos\Branco_03.jpg'); 
+    background-size: auto 100vh;
+    font-family: Arial; 
+    height: 100vh;
+}
+.menu{
+    background-color: whitesmoke;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+}
+a{
+    color: grey;
+    font-family: Arial;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline blue;
+}
+.site-subtitle,.site-title{
+    color:darkslategray;
+    text-align: center;
+}
+.site-subtitle{
+    font-style:italic;
+}
